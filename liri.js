@@ -36,7 +36,7 @@ switch (cmd) {
 
 // Function definitions
 function help() {
-    log("\n" + chalk.bgMagenta.bold("Not a command. Here are vailable commands:") + "\n\n" +
+    log("\n" + chalk.red.bold("Not a command. Here are vailable commands:") + "\n\n" +
       "   " + chalk.green("concert-this") + " <artist name>\n" +
       "   " + chalk.green("spotify-this-song") + " <song name>\n" +
       "   " + chalk.green("movie-this") + " <movie name>\n" +
@@ -46,7 +46,7 @@ function help() {
   
   function concertThis() {
     if (!input) {
-      log("\n" + chalk.bgMagenta.underline("Error - please add an artist!\n"));
+      log("\n" + chalk.red.underline("Error - please add an artist!\n"));
       log("Usage: node liri.js concert-this <artist-name>\n");
       return;
     } else {
@@ -58,7 +58,7 @@ function help() {
       if (error) return console.log(error);
       if (!error && response.statusCode === 200) {
         if (body.length < 20) {
-          return log(chalk.bgMagenta.underline("\nNo results found...\n"));
+          return log(chalk.red.underline("\nNo results found...\n"));
         };
         var data = JSON.parse(body);
         for (var i = 0; i < 3; i++) {
@@ -80,7 +80,7 @@ function help() {
   
   function movieThis() {
     if (!input) {
-      log(chalk.blue.underline("\nNo movie specified. How about Rush Hour?"))
+      log(chalk.red.underline("\nNo movie specified. How about Rush Hour?"))
       var movie = "Rush Hour";
     } else {
       var movie = input.trim().replace(/ /g, "+");
@@ -92,7 +92,7 @@ function help() {
       
         var data = JSON.parse(body);
         console.log(data);
-        if (data.Response === "False") return log(chalk.bgMagenta.underline("\nMovie not found.\n"));
+        if (data.Response === "False") return log(chalk.red.underline("\nMovie not found.\n"));
         var actors = data.Actors;
         var actorsArr = actors.split(',');
         if (data.Ratings == []) {
@@ -140,13 +140,13 @@ function help() {
       secret: keys.spotify.secret,
     });
     if (!input) {
-      log(chalk.bgCyan.underline("\nNo song specified. How about South Park Mexican by South Park Mexican?"));
+      log(chalk.red.underline("\nNo song specified. How about South Park Mexican by South Park Mexican?"));
       var song = "South Park Mexican";
     } else {
       var song = input.trim();
     }
     spotify.search({ type: 'track', query: song }, function (err, data) {
-      if (err) return log(chalk.bgMagenta.underline('\nSong not found.\n'))
+      if (err) return log(chalk.red.underline('\nSong not found.\n'))
       console.log(data.tracks);
       log('');
       log(chalk.blue.bold("Title: ") + name);
@@ -155,7 +155,7 @@ function help() {
       if (preview) {
         log(chalk.blue.bold("Preview (30 sec): ") + preview);
       } else {
-        log(chalk.bgMagenta.bold("No preview available."));
+        log(chalk.red.bold("No preview available."));
       };
       log('');
   
@@ -176,7 +176,7 @@ function help() {
       if (err) return console.log(err);
   
       if (data.trim().includes("do-what-it-says")) {
-        log(chalk.bgMagenta.underline("\nError:") + " Error - choose another command.\n");
+        log(chalk.red.underline("\nError:") + " Error - choose another command.\n");
         return;
       };
       var arr = data.split(',');
