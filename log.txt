@@ -1,0 +1,159 @@
+Artist: 311
+Venue: Xfinity Theatre
+Location: Hartford, United States
+Date: 08/21/2018
+---------------
+---------------
+Artist: 311
+Venue: PNC Bank Arts Center
+Location: Holmdel, United States
+Date: 08/22/2018
+Artist: 311
+Venue: Bethel Woods Center For the Arts
+Location: Bethel, United States
+Date: 08/24/2018
+---------------
+Title: WHY
+Artist: NF
+Album: WHY
+Preview: null
+---------------
+Title: Glycerine
+Artist: Bush
+Album: Sixteen Stone (Remastered)
+Preview: https://p.scdn.co/mp3-preview/fc51a0245624015066f1291f178dd49b7db82d7e?cid=e6b8a624fcb34c4091e0c916d74b51ff
+---------------
+Title: Glycerine
+Artist: Bush
+Album: Sixteen Stone (Remastered)
+Preview: https://p.scdn.co/mp3-preview/fc51a0245624015066f1291f178dd49b7db82d7e?cid=e6b8a624fcb34c4091e0c916d74b51ff
+---------------
+Title: Glycerine
+Artist: Bush
+Album: Sixteen Stone (Remastered)
+Preview: https://p.scdn.co/mp3-preview/fc51a0245624015066f1291f178dd49b7db82d7e?cid=e6b8a624fcb34c4091e0c916d74b51ff
+---------------
+Title: Glycerine
+Artist: Bush
+Album: Sixteen Stone (Remastered)
+Preview: https://p.scdn.co/mp3-preview/fc51a0245624015066f1291f178dd49b7db82d7e?cid=e6b8a624fcb34c4091e0c916d74b51ff
+---------------
+Title: Glycerine
+Artist: Bush
+Album: Sixteen Stone (Remastered)
+Preview: https://p.scdn.co/mp3-preview/fc51a0245624015066f1291f178dd49b7db82d7e?cid=e6b8a624fcb34c4091e0c916d74b51ff
+---------------
+Title: Godfather
+Year: 1991
+IMDB rating: 8.5
+Rotten Tomatoes rating: N/A
+Produced in: India
+Language: Malayalam
+Plot: Two youngsters from rival clans fall in love.
+Actors: N.N. Pillai, Mukesh, Kanaka, Philomina
+---------------
+Title: Godfather
+Year: 1991
+IMDB rating: 8.5
+Rotten Tomatoes rating: N/A
+Produced in: India
+Language: Malayalam
+Plot: Two youngsters from rival clans fall in love.
+Actors: N.N. Pillai, Mukesh, Kanaka, Philomina
+---------------
+Title: The Godfather
+Year: 1972
+IMDB rating: 9.2
+Rotten Tomatoes rating: 98%
+Produced in: USA
+Language: English, Italian, Latin
+Plot: The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.
+Actors: Marlon Brando, Al Pacino, James Caan, Richard S. Castellano
+---------------
+Title: Rush Hour
+Year: 1998
+IMDB rating: 7.0
+Rotten Tomatoes rating: 60%
+Produced in: USA
+Language: English, Cantonese, Mandarin
+Plot: A loyal and dedicated Hong Kong inspector teams up with a reckless and loudmouthed LAPD detective to rescue the Chinese Consul's kidnapped daughter, while trying to arrest a dangerous crime lord along the way.
+Actors: Ken Leung, Jackie Chan, Tom Wilkinson, Tzi Ma
+---------------
+Title: The Godfather
+Year: 1972
+IMDB rating: 9.2
+Rotten Tomatoes rating: 98%
+Produced in: USA
+Language: English, Italian, Latin
+Plot: The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.
+Actors: Marlon Brando, Al Pacino, James Caan, Richard S. Castellano
+---------------
+Title: Rush Hour
+Year: 1998
+IMDB rating: 7.0
+Rotten Tomatoes rating: 60%
+Produced in: USA
+Language: English, Cantonese, Mandarin
+Plot: A loyal and dedicated Hong Kong inspector teams up with a reckless and loudmouthed LAPD detective to rescue the Chinese Consul's kidnapped daughter, while trying to arrest a dangerous crime lord along the way.
+Actors: Ken Leung, Jackie Chan, Tom Wilkinson, Tzi Ma
+---------------
+Artist: bush
+Venue: Portneuf Health Trust Amphitheatre
+Location: Pocatello, United States
+Date: 08/23/2018
+---------------
+Artist: bush
+Venue: White River Amphitheatre
+Location: Auburn, United States
+Date: 08/25/2018
+---------------
+Artist: bush
+Venue: Sunlight Supply Amphitheater
+Location: Ridgefield, United States
+Date: 08/26/2018
+---------------
+Artist: bush
+Venue: Portneuf Health Trust Amphitheatre
+Location: Pocatello, United States
+Date: 08/23/2018
+---------------
+Artist: bush
+Venue: White River Amphitheatre
+Location: Auburn, United States
+Date: 08/25/2018
+---------------
+Artist: bush
+Venue: Sunlight Supply Amphitheater
+Location: Ridgefield, United States
+Date: 08/26/2018
+---------------
+Artist: bush
+Venue: Portneuf Health Trust Amphitheatre
+Location: Pocatello, United States
+Date: 08/23/2018
+---------------
+Artist: bush
+Venue: White River Amphitheatre
+Location: Auburn, United States
+Date: 08/25/2018
+---------------
+Artist: bush
+Venue: Sunlight Supply Amphitheater
+Location: Ridgefield, United States
+Date: 08/26/2018
+---------------
+Artist: bush
+Venue: Portneuf Health Trust Amphitheatre
+Location: Pocatello, United States
+Date: 08/23/2018
+-
+-
+Artist: bush
+Venue: White River Amphitheatre
+Location: Auburn, United States
+Date: 08/25/2018
+-
+Artist: bush
+Venue: Sunlight Supply Amphitheater
+Location: Ridgefield, United States
+Date: 08/26/2018
