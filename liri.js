@@ -28,6 +28,7 @@ switch (cmd) {
         movieThis();
         break;
     case "do-what-it-says":
+        doWhatItSays();
         break;    
     default:
         help();
@@ -172,33 +173,8 @@ function help() {
   
   
   function doWhatItSays() {
-    fs.readFile('random.txt', 'utf8', function (err, data) {
-      if (err) return console.log(err);
-  
-      if (data.trim().includes("do-what-it-says")) {
-        log(chalk.red.underline("\nError:") + " Error - choose another command.\n");
-        return;
-      };
-      var arr = data.split(',');
-      switch (arr[0]) {
-        case "concert-this":
-          input = arr[1].trim();
-          concertThis();
-          break;
-        case "spotify-this-song":
-          input = arr[1].trim();
-          spotifyThisSong();
-          break;
-        case "movie-this":
-          input = arr[1].trim();
-          movieThis();
-          break;
-        default:
-          help();
-          break;
-      };
-    });
-  };
+    console.log(log);
+    };
   
   function logFile(appendThisToLog) {
     fs.appendFile('log.txt', appendThisToLog, function (err) {
