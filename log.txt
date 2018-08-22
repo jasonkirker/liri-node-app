@@ -157,3 +157,48 @@ Artist: bush
 Venue: Sunlight Supply Amphitheater
 Location: Ridgefield, United States
 Date: 08/26/2018
+Title: Rush Hour
+Year: 1998
+IMDB rating: 7.0
+Rotten Tomatoes rating: 60%
+Produced in: USA
+Language: English, Cantonese, Mandarin
+Plot: A loyal and dedicated Hong Kong inspector teams up with a reckless and loudmouthed LAPD detective to rescue the Chinese Consul's kidnapped daughter, while trying to arrest a dangerous crime lord along the way.
+Actors: Ken Leung, Jackie Chan, Tom Wilkinson, Tzi Ma
+-
+Title: Rush Hour
+Year: 1998
+IMDB rating: 7.0
+Rotten Tomatoes rating: 60%
+Produced in: USA
+Language: English, Cantonese, Mandarin
+Plot: A loyal and dedicated Hong Kong inspector teams up with a reckless and loudmouthed LAPD detective to rescue the Chinese Consul's kidnapped daughter, while trying to arrest a dangerous crime lord along the way.
+Actors: Ken Leung, Jackie Chan, Tom Wilkinson, Tzi Ma
+-
+Title: Rush Hour
+Year: 1998
+IMDB rating: 7.0
+Rotten Tomatoes rating: 60%
+Produced in: USA
+Language: English, Cantonese, Mandarin
+Plot: A loyal and dedicated Hong Kong inspector teams up with a reckless and loudmouthed LAPD detective to rescue the Chinese Consul's kidnapped daughter, while trying to arrest a dangerous crime lord along the way.
+Actors: Ken Leung, Jackie Chan, Tom Wilkinson, Tzi Ma
+-
+Title: Rush Hour
+Year: 1998
+IMDB rating: 7.0
+Rotten Tomatoes rating: 60%
+Produced in: USA
+Language: English, Cantonese, Mandarin
+Plot: A loyal and dedicated Hong Kong inspector teams up with a reckless and loudmouthed LAPD detective to rescue the Chinese Consul's kidnapped daughter, while trying to arrest a dangerous crime lord along the way.
+Actors: Ken Leung, Jackie Chan, Tom Wilkinson, Tzi Ma
+-
+Title: Rush Hour
+Year: 1998
+IMDB rating: 7.0
+Rotten Tomatoes rating: 60%
+Produced in: USA
+Language: English, Cantonese, Mandarin
+Plot: A loyal and dedicated Hong Kong inspector teams up with a reckless and loudmouthed LAPD detective to rescue the Chinese Consul's kidnapped daughter, while trying to arrest a dangerous crime lord along the way.
+Actors: Ken Leung, Jackie Chan, Tom Wilkinson, Tzi Ma
+-

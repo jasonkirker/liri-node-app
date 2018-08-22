@@ -27,6 +27,8 @@ switch (cmd) {
     case "movie-this":
         movieThis();
         break;
+    case "do-what-it-says":
+        break;    
     default:
         help();
         break;
@@ -34,17 +36,17 @@ switch (cmd) {
 
 // Function definitions
 function help() {
-    log("\n" + chalk.red.bold("Error - not a command. Try one of these commands:") + "\n\n" +
+    log("\n" + chalk.bgMagenta.bold("Not a command. Here are vailable commands:") + "\n\n" +
       "   " + chalk.green("concert-this") + " <artist name>\n" +
       "   " + chalk.green("spotify-this-song") + " <song name>\n" +
       "   " + chalk.green("movie-this") + " <movie name>\n" +
-      "   " + chalk.green("keep-this") + " (Runs command in random.txt)\n");
+      "   " + chalk.green("do-what-it-says") + " (Runs command in random.txt)\n");
     process.exit(1);
   };
   
   function concertThis() {
     if (!input) {
-      log("\n" + chalk.red.underline("Error - You did not provide an artist!\n"));
+      log("\n" + chalk.bgMagenta.underline("Error - please add an artist!\n"));
       log("Usage: node liri.js concert-this <artist-name>\n");
       return;
     } else {
@@ -56,7 +58,7 @@ function help() {
       if (error) return console.log(error);
       if (!error && response.statusCode === 200) {
         if (body.length < 20) {
-          return log(chalk.red.underline("\nNo results found...\n"));
+          return log(chalk.bgMagenta.underline("\nNo results found...\n"));
         };
         var data = JSON.parse(body);
         for (var i = 0; i < 3; i++) {
@@ -78,8 +80,8 @@ function help() {
   
   function movieThis() {
     if (!input) {
-      log(chalk.red.underline("\nNo movie specified. Defaulting to 'Mr. Nobody'"))
-      var movie = "mr+nobody";
+      log(chalk.blue.underline("\nNo movie specified. How about Rush Hour?"))
+      var movie = "Rush Hour";
     } else {
       var movie = input.trim().replace(/ /g, "+");
     };
@@ -90,7 +92,7 @@ function help() {
       
         var data = JSON.parse(body);
         console.log(data);
-        if (data.Response === "False") return log(chalk.red.underline("\nMovie not found...\n"));
+        if (data.Response === "False") return log(chalk.bgMagenta.underline("\nMovie not found.\n"));
         var actors = data.Actors;
         var actorsArr = actors.split(',');
         if (data.Ratings == []) {
@@ -103,12 +105,12 @@ function help() {
           }
         };
         log('');
-        log(chalk.blue.bold("Title:                  ") + data.Title);
-        log(chalk.blue.bold("Year:                   ") + data.Year);
-        log(chalk.blue.bold("IMDB rating:            ") + data.imdbRating);
+        log(chalk.blue.bold("Title: ") + data.Title);
+        log(chalk.blue.bold("Year: ") + data.Year);
+        log(chalk.blue.bold("IMDB rating: ") + data.imdbRating);
         log(chalk.blue.bold("Rotten Tomatoes rating: ") + rottenTomatoes);
-        log(chalk.blue.bold("Produced in:            ") + data.Country);
-        log(chalk.blue.bold("Language:               ") + data.Language);
+        log(chalk.blue.bold("Produced in: ") + data.Country);
+        log(chalk.blue.bold("Language: ") + data.Language);
         log(chalk.blue.bold("Plot: \n") + data.Plot);
         log(chalk.blue.bold("Actors:"));
         for (var j = 0; j < actorsArr.length; j++) {
@@ -130,20 +132,21 @@ function help() {
       
     });
   };
-
+  
+  
   function spotifyThisSong() {
     var spotify = new Spotify({
       id: keys.spotify.id,
       secret: keys.spotify.secret,
     });
     if (!input) {
-      log(chalk.red.underline("\nNo song specified. Defaulting to The Sign by Ace Of Base"));
-      var song = "The Sign Ace of base";
+      log(chalk.bgCyan.underline("\nNo song specified. How about South Park Mexican by South Park Mexican?"));
+      var song = "South Park Mexican";
     } else {
       var song = input.trim();
     }
     spotify.search({ type: 'track', query: song }, function (err, data) {
-      if (err) return log(chalk.red.underline('\nSong not found...\n'))
+      if (err) return log(chalk.bgMagenta.underline('\nSong not found.\n'))
       console.log(data.tracks);
       log('');
       log(chalk.blue.bold("Title: ") + name);
@@ -152,7 +155,7 @@ function help() {
       if (preview) {
         log(chalk.blue.bold("Preview (30 sec): ") + preview);
       } else {
-        log(chalk.red.bold("No preview available."));
+        log(chalk.bgMagenta.bold("No preview available."));
       };
       log('');
   
@@ -163,7 +166,7 @@ function help() {
         `Preview: ${preview}\n`;
   
       logFile(logData);
-      logFile("---------------\n");
+      logFile("-\n");
     });
   };
   
@@ -172,8 +175,8 @@ function help() {
     fs.readFile('random.txt', 'utf8', function (err, data) {
       if (err) return console.log(err);
   
-      if (data.trim().includes("keep-this")) {
-        log(chalk.red.underline("\nError:") + " Error - can't run 'keep-this' in random.txt. Choose another command.\n");
+      if (data.trim().includes("do-what-it-says")) {
+        log(chalk.bgMagenta.underline("\nError:") + " Error - choose another command.\n");
         return;
       };
       var arr = data.split(',');
